@@ -15,17 +15,26 @@
 	</repositories>
 
 	<dependencies>
-		<dependency>
+		<!-- <dependency>
 			<groupId>com.example</groupId>
 			<artifactId>jacob</artifactId>
 			<version>1.18</version>
 		</dependency>
-		
+
 
 		<dependency>
 			<groupId>com.example</groupId>
 			<artifactId>autoitx4java</artifactId>
 			<version>1.0</version>
+		</dependency> -->
+
+		<!-- https://mvnrepository.com/artifact/de.openkeyword/autoit -->
+		<dependency>
+			<groupId>de.openkeyword</groupId>
+			<artifactId>autoit</artifactId>
+			<version>0.1.11</version>
 		</dependency>
+
+
 	</dependencies>
 </project>

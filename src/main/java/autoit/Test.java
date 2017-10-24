@@ -13,9 +13,9 @@ public class Test {
 	public static void main(String[] args) throws InterruptedException {
 		String jacobDllVersionToUse;
 		if (jvmBitVersion().contains("32")) {
-			jacobDllVersionToUse = "jacob-1.18-x86.dll";
+			jacobDllVersionToUse = "jacob-1.14.3-x86.dll";
 		} else {
-			jacobDllVersionToUse = "jacob-1.18-x64.dll";
+			jacobDllVersionToUse = "jacob-1.14.3-x64.dll";
 		}
 
 		File file = new File("lib", jacobDllVersionToUse);
@@ -36,5 +36,6 @@ public class Test {
 		Thread.sleep(1000);
 		// Enter =
 		x.controlClick("Калькулятор", "", "121");
+		
 	}
 }
